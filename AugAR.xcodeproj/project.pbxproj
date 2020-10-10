@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881F709E25317FCA00F36DE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F709D25317FCA00F36DE6 /* AppDelegate.swift */; };
+		881F70A025317FCA00F36DE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F709F25317FCA00F36DE6 /* ContentView.swift */; };
+		881F70A425317FCD00F36DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881F70A325317FCD00F36DE6 /* Assets.xcassets */; };
+		881F70A725317FCD00F36DE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881F70A625317FCD00F36DE6 /* Preview Assets.xcassets */; };
+		881F70B6253181F000F36DE6 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 881F70B1253181F000F36DE6 /* toy_drummer.usdz */; };
+		881F70B7253181F000F36DE6 /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 881F70B2253181F000F36DE6 /* wateringcan.usdz */; };
+		881F70B8253181F000F36DE6 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 881F70B3253181F000F36DE6 /* chair_swan.usdz */; };
+		881F70B9253181F000F36DE6 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 881F70B4253181F000F36DE6 /* toy_car.usdz */; };
+		881F70BA253181F000F36DE6 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 881F70B5253181F000F36DE6 /* toy_robot_vintage.usdz */; };
+		881F70BD2531825300F36DE6 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 881F70BC2531825300F36DE6 /* toy_biplane.usdz */; };
+		886E48B82531DCB20083E335 /* ModelViewPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E48B72531DCB20083E335 /* ModelViewPicker.swift */; };
+		886E48BB2531DCEC0083E335 /* PlacementButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E48BA2531DCEC0083E335 /* PlacementButtons.swift */; };
+		88BE5BA32531E2A000FBC123 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BE5BA22531E2A000FBC123 /* Model.swift */; };
+		88BE5BAB2531EA7A00FBC123 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 88BE5BAA2531EA7A00FBC123 /* FocusEntity */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		881F709A25317FCA00F36DE6 /* AugAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AugAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		881F709D25317FCA00F36DE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		881F709F25317FCA00F36DE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		881F70A325317FCD00F36DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		881F70A625317FCD00F36DE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		881F70A825317FCD00F36DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881F70B1253181F000F36DE6 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_drummer.usdz; path = ../../../../../../Downloads/toy_drummer.usdz; sourceTree = "<group>"; };
+		881F70B2253181F000F36DE6 /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = wateringcan.usdz; path = ../../../../../../Downloads/wateringcan.usdz; sourceTree = "<group>"; };
+		881F70B3253181F000F36DE6 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = chair_swan.usdz; path = ../../../../../../Downloads/chair_swan.usdz; sourceTree = "<group>"; };
+		881F70B4253181F000F36DE6 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_car.usdz; path = ../../../../../../Downloads/toy_car.usdz; sourceTree = "<group>"; };
+		881F70B5253181F000F36DE6 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_robot_vintage.usdz; path = ../../../../../../Downloads/toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		881F70BC2531825300F36DE6 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_biplane.usdz; path = ../../../../../../Downloads/toy_biplane.usdz; sourceTree = "<group>"; };
+		886E48B72531DCB20083E335 /* ModelViewPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewPicker.swift; sourceTree = "<group>"; };
+		886E48BA2531DCEC0083E335 /* PlacementButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementButtons.swift; sourceTree = "<group>"; };
+		88BE5BA22531E2A000FBC123 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		881F709725317FCA00F36DE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BE5BAB2531EA7A00FBC123 /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		881F709125317FCA00F36DE6 = {
+			isa = PBXGroup;
+			children = (
+				881F709C25317FCA00F36DE6 /* AugAR */,
+				881F709B25317FCA00F36DE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		881F709B25317FCA00F36DE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881F709A25317FCA00F36DE6 /* AugAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881F709C25317FCA00F36DE6 /* AugAR */ = {
+			isa = PBXGroup;
+			children = (
+				881F70B0253181BB00F36DE6 /* models */,
+				881F709D25317FCA00F36DE6 /* AppDelegate.swift */,
+				881F709F25317FCA00F36DE6 /* ContentView.swift */,
+				881F70A325317FCD00F36DE6 /* Assets.xcassets */,
+				881F70A825317FCD00F36DE6 /* Info.plist */,
+				881F70A525317FCD00F36DE6 /* Preview Content */,
+				886E48B72531DCB20083E335 /* ModelViewPicker.swift */,
+				886E48BA2531DCEC0083E335 /* PlacementButtons.swift */,
+				88BE5BA22531E2A000FBC123 /* Model.swift */,
+			);
+			path = AugAR;
+			sourceTree = "<group>";
+		};
+		881F70A525317FCD00F36DE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				881F70A625317FCD00F36DE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		881F70B0253181BB00F36DE6 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				881F70BC2531825300F36DE6 /* toy_biplane.usdz */,
+				881F70B3253181F000F36DE6 /* chair_swan.usdz */,
+				881F70B4253181F000F36DE6 /* toy_car.usdz */,
+				881F70B1253181F000F36DE6 /* toy_drummer.usdz */,
+				881F70B5253181F000F36DE6 /* toy_robot_vintage.usdz */,
+				881F70B2253181F000F36DE6 /* wateringcan.usdz */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		881F709925317FCA00F36DE6 /* AugAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881F70AB25317FCE00F36DE6 /* Build configuration list for PBXNativeTarget "AugAR" */;
+			buildPhases = (
+				881F709625317FCA00F36DE6 /* Sources */,
+				881F709725317FCA00F36DE6 /* Frameworks */,
+				881F709825317FCA00F36DE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AugAR;
+			packageProductDependencies = (
+				88BE5BAA2531EA7A00FBC123 /* FocusEntity */,
+			);
+			productName = AugAR;
+			productReference = 881F709A25317FCA00F36DE6 /* AugAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		881F709225317FCA00F36DE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					881F709925317FCA00F36DE6 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 881F709525317FCA00F36DE6 /* Build configuration list for PBXProject "AugAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 881F709125317FCA00F36DE6;
+			packageReferences = (
+				88BE5BA92531EA7A00FBC123 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = 881F709B25317FCA00F36DE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881F709925317FCA00F36DE6 /* AugAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		881F709825317FCA00F36DE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881F70A725317FCD00F36DE6 /* Preview Assets.xcassets in Resources */,
+				881F70A425317FCD00F36DE6 /* Assets.xcassets in Resources */,
+				881F70BD2531825300F36DE6 /* toy_biplane.usdz in Resources */,
+				881F70B6253181F000F36DE6 /* toy_drummer.usdz in Resources */,
+				881F70B8253181F000F36DE6 /* chair_swan.usdz in Resources */,
+				881F70B7253181F000F36DE6 /* wateringcan.usdz in Resources */,
+				881F70B9253181F000F36DE6 /* toy_car.usdz in Resources */,
+				881F70BA253181F000F36DE6 /* toy_robot_vintage.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		881F709625317FCA00F36DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BE5BA32531E2A000FBC123 /* Model.swift in Sources */,
+				886E48B82531DCB20083E335 /* ModelViewPicker.swift in Sources */,
+				886E48BB2531DCEC0083E335 /* PlacementButtons.swift in Sources */,
+				881F70A025317FCA00F36DE6 /* ContentView.swift in Sources */,
+				881F709E25317FCA00F36DE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		881F70A925317FCD00F36DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		881F70AA25317FCD00F36DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		881F70AC25317FCE00F36DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AugAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q2G7C7C3U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AugAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dynamicdudes.AugAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		881F70AD25317FCE00F36DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AugAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q2G7C7C3U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AugAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dynamicdudes.AugAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881F709525317FCA00F36DE6 /* Build configuration list for PBXProject "AugAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881F70A925317FCD00F36DE6 /* Debug */,
+				881F70AA25317FCD00F36DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881F70AB25317FCE00F36DE6 /* Build configuration list for PBXNativeTarget "AugAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881F70AC25317FCE00F36DE6 /* Debug */,
+				881F70AD25317FCE00F36DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88BE5BA92531EA7A00FBC123 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88BE5BAA2531EA7A00FBC123 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88BE5BA92531EA7A00FBC123 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 881F709225317FCA00F36DE6 /* Project object */;
+}
